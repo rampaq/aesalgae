@@ -10,7 +10,7 @@ FNSPE in Prague, FIT
 
 ## Installation:
 
-Create `conda` environment and install SageMath via `conda`.
+Create `conda` environment and install newest SageMath (tested with 10.4, 2024-07-19) via `conda`.
 Optionally install also `galois` for linear algebra over Numpy matrices in finite fields.
 
 Compile [CodeRed](https://github.com/lducas/CodeRed/) reduction library in packaged format in `packages/`. Then, install all supplied python packages via `packages/install-pkgs.sh`.
@@ -25,3 +25,5 @@ sage scripts/aes.py -n 2 -r 4 -c 2 -e 4 --pc-pairs 32 -T24 --preprocessing monom
 # run SR(3,2,2,4), PC=1, no preprocessing; Groebner basis using F4 with 24 threads and GPU
 sage scripts/aes.py -n 3 -r 2 -c 2 -e 4 --pc-pairs 1 -T24
 ```
+
+Alternatively, execute batches via `scripts/aes-batch.json` and supply `json` file describing the batch. Used examples are in `scripts/batches/*.json`.

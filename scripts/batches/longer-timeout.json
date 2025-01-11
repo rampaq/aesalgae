@@ -1,0 +1,26 @@
+{
+    "id": "timeout8h_{run_num}",
+    "parallel": true,
+    "fname": "{n}{r}{c}{e}_PC{pc}_{preprocessing}{prereduce}_T24.json",
+    "timeout": 28800,
+    "batch": [
+        {
+            "aes": "2444",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim,lll",
+            "pre-reduce-mult": [1, 2, 4,8,16,32]
+        }
+        {
+            "aes": "2444",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "lll",
+            "pre-reduce-mult": [1, 2, 4,8,16,32]
+        },
+        {
+            "aes": "2444",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1, 2, 4,8,16,32]
+        },
+    ]
+}

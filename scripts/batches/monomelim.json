@@ -1,0 +1,74 @@
+{
+    "id": "monomelim_parallel_{run_num}",
+    "parallel": true,
+    "fname": "{n}{r}{c}{e}_PC{pc}_monomelim{prereduce}_T24.json",
+    "batch": [
+        {
+            "aes": "1244",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1,2,4,8,16,32]
+        },
+        {
+            "aes": "1424",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [2,4,8,16,32]
+        },
+        {
+            "aes": "1228",
+            "pc": [1, 2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1, 2,4,8,16,32]
+        },
+        {
+            "aes": "1444",
+            "pc": [1, 2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1, 2,4,8,16,32]
+        },
+        {
+            "aes": "1428",
+            "pc": [4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [2,4,8,16,32]
+        },
+        {
+            "aes": "1248",
+            "pc": [4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [2,4,8,16,32]
+        },
+        {
+            "aes": "2244",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1,2,4,8,16,32]
+        },
+        {
+            "aes": "3224",
+            "pc": [1, 2, 4, 8, 16, 32, 64, 128, 256],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1,2,4,8,16,32]
+        },
+        {
+            "aes": "1448",
+            "pc": [4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [2,4,8,16,32]
+        },
+        {
+            "aes": "2244",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1,2,4,8,16,32]
+        },
+        {
+            "aes": "2424",
+            "pc": [2, 4, 8, 16, 32, 64],
+            "preprocessing": "monomelim",
+            "pre-reduce-mult": [1, 2, 4,8,16,32]
+        }
+    ]
+}
+

@@ -1,0 +1,13 @@
+{
+    "id": "inflate_monomelim_parallel_{run_num}",
+    "parallel": true,
+    "fname": "{n}{r}{c}{e}_PC{pc}_inflate-monomelim{prereduce}_T24.json",
+    "batch": [
+        {
+            "aes": "3224",
+            "pc": [1, 2, 4, 8, 16, 32],
+            "preprocessing": "inflate,monomelim",
+            "pre-reduce-mult": [1,2,4,8,16,32]
+        }
+    ]
+}
